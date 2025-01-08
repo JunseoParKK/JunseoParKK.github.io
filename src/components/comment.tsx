@@ -33,9 +33,9 @@ const Comment = () => {
       const comment = document.createElement("script")
       const attributes = {
         src: `${source}/client.js`,
-        repo,
+        repo: "junseoparkk/gatsby-blog-comment",
         "issue-term": "title",
-        label: "comment",
+        label: "comments",
         theme: themeMode,
         crossOrigin: "anonymous",
         async: "true",
